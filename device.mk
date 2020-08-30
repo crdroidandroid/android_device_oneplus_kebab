@@ -55,5 +55,12 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
+# Fingerprint
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/fingerprint/lib/libgf_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libgf_ud_hal.so \
+    $(LOCAL_PATH)/fingerprint/lib/libgf_g6_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libgf_g6_ud_hal.so \
+    $(LOCAL_PATH)/fingerprint/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libgf_ud_hal.so \
+    $(LOCAL_PATH)/fingerprint/lib64/libgf_g6_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libgf_g6_ud_hal.so
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
