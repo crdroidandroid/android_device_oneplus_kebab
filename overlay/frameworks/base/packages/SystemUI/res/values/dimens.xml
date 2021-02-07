@@ -27,4 +27,16 @@
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
+
+    <!-- Alert Slider UI -->
+    <dimen name="tri_state_down_dialog_position_l">350px</dimen>
+    <dimen name="tri_state_middle_dialog_position_l">350px</dimen>
+    <dimen name="tri_state_up_dialog_position_l">350px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep">0px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep_land">0px</dimen>
+    <dimen name="tri_state_position_padding_extra">0px</dimen>
+    <dimen name="tri_state_down_dialog_position">481px</dimen>
+    <dimen name="tri_state_middle_dialog_position">350px</dimen>
+    <dimen name="tri_state_up_dialog_position">219px</dimen>
+
 </resources>
