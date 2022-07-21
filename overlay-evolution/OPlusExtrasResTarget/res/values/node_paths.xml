@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Evolution X Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- GameMode procfs node path -->
+    <string name="node_game_mode_switch">/proc/touchpanel/game_switch_enable</string>
+    <string name="node_game_mode_switch_true">1, smooth_level:0, sensitive_level:0, high_frame_support:1, high_frame_value:0</string>
+    <string name="node_game_mode_switch_false">0, smooth_level:0, sensitive_level:0, high_frame_support:1, high_frame_value:0</string>
+
+    <!-- TP Edge Limit procfs node path -->
+    <string name="node_tp_edge_limit_mode_switch">/proc/touchpanel/oplus_tp_limit_enable</string>
+    <string name="node_tp_edge_limit_mode_switch_true">1</string>
+    <string name="node_tp_edge_limit_mode_switch_false">0</string>
+
+</resources>
