@@ -12,15 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kebab device
 $(call inherit-product, device/oneplus/kebab/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-EVO_BUILD_TYPE := OFFICIAL
-EXTRA_UDFPS_ANIMATIONS := true
+# Extras
+TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := evolution_kebab
+# Blur properties
+TARGET_ENABLE_BLUR := true
+
+PRODUCT_NAME := lineage_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
