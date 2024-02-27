@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_kebab.mk
+    $(LOCAL_DIR)/lineage_kebab.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_kebab-user \
-    evolution_kebab-userdebug \
-    evolution_kebab-eng
+    lineage_kebab-user \
+    lineage_kebab-userdebug \
+    lineage_kebab-eng
