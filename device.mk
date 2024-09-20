@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# UDFPS
+
+TARGET_HAS_UDFPS := true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
