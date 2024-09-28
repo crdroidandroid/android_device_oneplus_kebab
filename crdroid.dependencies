@@ -5,6 +5,6 @@
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_oneplus_kebab",
-    "target_path": "vendor/oneplus/kebab",
+    "target_path": "vendor/oneplus/kebab"
   }
 ]
